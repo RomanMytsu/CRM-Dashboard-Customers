@@ -13,7 +13,6 @@ body {
   margin: 0;
 }
 
-p,
 h1,
 h2,
 h3,
@@ -37,5 +36,13 @@ ul {
 }
 a {
   text-decoration: none;
-  display: inline-block;
+  // display: inline-block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
 }

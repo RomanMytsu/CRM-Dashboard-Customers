@@ -1,0 +1,24 @@
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__name {
+    letter-spacing: 0.01em;
+    color: #000;
+    margin: 0;
+  }
+
+  &__position {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    margin: 0;
+  }
+}
